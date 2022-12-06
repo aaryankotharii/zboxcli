@@ -824,7 +824,7 @@ Use `startblock` and `endblock` to only download part of the file.
 | remotepath      | yes      | remote path to which the file was uploaded                               |         | string       |
 | rx_pay          | no       | `authticket` must be valid, true = sender pays, false = allocation owner pays      | false   | boolean      |
 | startblock      | no       | start download from specified block                                      |         | int          |
-| thumbail        | no       | only download the thumbnail                                              | false   | boolean      |
+| thumbnail        | no       | only download the thumbnail                                              | false   | boolean      |
 | live            | no       | start m3u8 downloader,and automatically generate media playlist(m3u8) on --localpath | false   | boolean |
 | delay           | no       | pass segment duration to generate media playlist(m3u8). only works with --live. default duration is 5s. | 5  | int  |
 
